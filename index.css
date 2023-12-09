@@ -1,0 +1,978 @@
+.not-logged-in-desktop-child,
+.not-logged-in-desktop-item {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 1440px;
+  height: 440px;
+}
+.not-logged-in-desktop-child {
+  background-image: url(./public/rectangle2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.not-logged-in-desktop-item {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.6));
+}
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  width: 1440px;
+  height: 72px;
+}
+.whole-icon {
+  position: absolute;
+  top: 24px;
+  left: 72px;
+  width: 162.57px;
+  height: 24px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.rectangle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 21px;
+  background-color: #f2f2f2;
+  width: 360px;
+  height: 42px;
+}
+
+  .group-child {
+    position: absolute;
+    top: 7px;
+    left: -31px;
+    width: 34px;
+    height: 30px;
+    cursor:pointer;
+  }
+
+.search-for-your {
+  position: absolute;
+  top: 12px;
+  left: 50px;
+  font-weight: 500;
+}
+.rectangle-group {
+  position: absolute;
+  top: 16px;
+  left: 540px;
+  width: 360px;
+  height: 42px;
+}
+.create-account {
+  font-weight: 500;
+}
+.its-free {
+  color: var(--color-royalblue);
+  cursor: pointer;
+  
+}
+.create-account-its-container {
+  position: absolute;
+  top: 27px;
+  left: 1161px;
+  font-size: var(--font-size-base);
+  text-align: right;
+  color: #2e2e2e;
+}
+.baseline-arrow-drop-down-24px-icon {
+  position: absolute;
+  top: 26px;
+  left: 1344px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 72px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-ibm-plex-sans);
+}
+.computer-engineering,
+.computer-engineers-follow {
+  position: absolute;
+  left: 200px;
+  color: var(--color-white);
+}
+.computer-engineering {
+  margin: 0;
+  top: 358px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.computer-engineers-follow {
+  top: 409px;
+}
+.line {
+  top: 599.5px;
+  left: 199.5px;
+  border-top: 1px solid var(--color-gainsboro);
+  width: 1041px;
+}
+.line,
+.line1,
+.not-logged-in-desktop-inner {
+  position: absolute;
+  box-sizing: border-box;
+  height: 1px;
+}
+.line1 {
+  top: 543.5px;
+  left: 71.5px;
+  border-top: 1px solid var(--color-gainsboro);
+  width: 1297px;
+  opacity: 0;
+}
+.not-logged-in-desktop-inner {
+  top: 599.5px;
+  left: 199.5px;
+  border-top: 1px solid var(--color-black);
+  width: 94px;
+}
+.all-posts32 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--color-black);
+}
+.article,
+.education,
+.event,
+.job {
+  position: absolute;
+  top: 0;
+  left: 113px;
+}
+.education,
+.event,
+.job {
+  left: 180px;
+}
+.education,
+.job {
+  left: 239px;
+}
+.job {
+  left: 331px;
+}
+.all-posts32-parent {
+  position: absolute;
+  top: 559px;
+  left: 200px;
+  width: 358px;
+  height: 21px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+}
+
+.all-posts32,
+.article,
+.education,
+.event,
+.job {
+  cursor: pointer;
+}
+
+.article:hover,
+.education:hover,
+.event:hover,
+.job:hover {
+  font-weight: bold;
+  color: #e56135;
+}
+
+
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: #edeef0;
+  width: 133px;
+  height: 36px;
+}
+
+.write-a-post {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.write-a-post:hover {
+  font-weight: bold;
+  color: #e56135;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Your existing styles for larger screens */
+
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens, e.g., mobile devices */
+  .not-logged-in-desktop-child,
+  .not-logged-in-desktop-item {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+  }
+
+  /* Add more adjustments as needed for other elements */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.baseline-arrow-drop-down-24px-icon1 {
+  position: absolute;
+  top: 7px;
+  left: 105px;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+}
+.rectangle-container {
+  position: absolute;
+  top: 552px;
+  left: 966px;
+  width: 133px;
+  height: 36px;
+  font-size: var(--font-size-mini);
+}
+
+
+
+
+
+
+
+
+
+
+.search-bar {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  width: 360px;
+  height: 34px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+}
+.search-bar input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  padding: 0 8px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.outline-location-on-24px-2-icon {
+  position: absolute;
+  top: 656px;
+  left: 997px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.line-div {
+  position: absolute;
+  top: 684.8px;
+  left: 996.8px;
+  border-top: 0.4px solid #b8b8b8;
+  box-sizing: border-box;
+  width: 243.4px;
+  height: 0.4px;
+}
+.noida-india {
+  position: absolute;
+  top: 656px;
+  left: 1019px;
+  font-size: var(--font-size-sm);
+  
+}
+.baseline-edit-24px-icon {
+  position: absolute;
+  top: 655px;
+  left: 1220px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.your-location-will {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  display: inline-block;
+  width: 220px;
+  opacity: 0.5;
+}
+.baseline-error-outline-24px-icon {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.your-location-will-help-us-ser-parent {
+  position: absolute;
+  top: 717px;
+  left: 997px;
+  width: 243px;
+  height: 32px;
+  font-size: 12px;
+}
+.group-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-royalblue);
+  width: 125px;
+  height: 36px;
+}
+.join-group {
+  position: absolute;
+  top: 8px;
+  left: 38px;
+  font-weight: 500;
+}
+.baseline-group-add-24px-icon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+}
+.group-div {
+  position: absolute;
+  top: 552px;
+  left: 1115px;
+  width: 125px;
+  height: 36px;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+}
+.rectangle-div {
+  position: absolute;
+  top: 487px;
+  left: -1px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 694px;
+  height: 474px;
+}
+.baseline-more-vert-24px-icon {
+  position: absolute;
+  top: 764px;
+  left: 644px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.education1,
+.tax-benefits-for {
+  position: absolute;
+  top: 728px;
+  left: 20px;
+  font-weight: 500;
+}
+.tax-benefits-for {
+  margin: 0;
+  top: 763px;
+  font-size: var(--font-size-3xl);
+  line-height: 134.55%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 600px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 488px;
+  left: 0;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  width: 692px;
+  height: 220px;
+  object-fit: cover;
+}
+.ive-worked-in {
+  margin: 0;
+  position: absolute;
+  top: 835px;
+  left: 20px;
+  font-size: var(--font-size-lgi);
+  line-height: 134.17%;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-dimgray-100);
+  display: inline-block;
+  width: 652px;
+}
+.group-child1 {
+  position: absolute;
+  top: 892px;
+  left: 20px;
+  border-radius: var(--br-5xl);
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.sarah-west {
+  position: absolute;
+  top: 904px;
+  left: 78px;
+  font-weight: 600;
+}
+.iconactionvisibility-24px {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+}
+.group,
+.k-views {
+  position: absolute;
+}
+.k-views {
+  top: 0;
+  left: 26px;
+  font-weight: 500;
+}
+.group {
+  top: 907px;
+  left: 495px;
+  width: 95px;
+  height: 18px;
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-200);
+}
+.group-child2,
+.rectangle-textarea {
+  position: absolute;
+  background-color: var(--color-white);
+  box-sizing: border-box;
+}
+.rectangle-textarea {
+  border: 1px solid var(--color-gainsboro);
+  top: 975px;
+  left: -1px;
+  border-radius: var(--br-9xs);
+  width: 694px;
+  height: 492px;
+}
+.group-child2 {
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  border: 0.7px solid var(--color-darkgray);
+  width: 652px;
+  height: 38px;
+}
+.visit-website {
+  position: absolute;
+  top: 10px;
+  left: 286px;
+  line-height: 140.4%;
+  font-weight: 600;
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 1328px;
+  left: 20px;
+  width: 652px;
+  height: 38px;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: #e56135;
+}
+.outline-location-on-24px-icon {
+  position: absolute;
+  top: 0;
+  left: 206px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.ahmedabad-india,
+.fri-12-oct {
+  position: absolute;
+  top: 0;
+  left: 230px;
+  font-weight: 500;
+}
+.fri-12-oct {
+  left: 24px;
+  display: inline-block;
+  width: 142px;
+}
+.baseline-today-24px-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.outline-location-on-24px-parent {
+  position: absolute;
+  top: 1292px;
+  left: 20px;
+  width: 358px;
+  height: 20px;
+  font-size: var(--font-size-mini);
+}
+.vector-icon {
+  position: absolute;
+  height: 1.83%;
+  width: 5.2%;
+  top: 71.39%;
+  right: 3.03%;
+  bottom: 26.78%;
+  left: 91.76%;
+  border-radius: var(--br-9xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.baseline-more-vert-24px-icon1 {
+  position: absolute;
+  top: 1252px;
+  left: 639px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.finance-investment,
+.meetup {
+  position: absolute;
+  top: 1216px;
+  left: 20px;
+  font-weight: 500;
+}
+.finance-investment {
+  margin: 0;
+  top: 1251px;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 600px;
+}
+.group-child3,
+.group-child4 {
+  position: absolute;
+  top: 976px;
+  left: 0;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  width: 692px;
+  height: 220px;
+  object-fit: cover;
+}
+.group-child4 {
+  top: 0;
+  border-radius: var(--br-5xl);
+  width: 48px;
+  height: 48px;
+}
+.ronal-jones {
+  position: absolute;
+  top: 12px;
+  left: 58px;
+  font-weight: 600;
+}
+.group1,
+.rectangle-parent3 {
+  position: absolute;
+  top: 1398px;
+  left: 20px;
+  width: 160px;
+  height: 48px;
+}
+.group1 {
+  top: 1413px;
+  left: 495px;
+  width: 95px;
+  height: 18px;
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-200);
+}
+.group-child5 {
+  border: 1px solid var(--color-gainsboro);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 1481px;
+  left: -1px;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  width: 694px;
+  height: 271px;
+}
+.group2 {
+  position: absolute;
+  top: 1698px;
+  left: 495px;
+  width: 95px;
+  height: 18px;
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-200);
+}
+.baseline-more-vert-24px-icon2 {
+  position: absolute;
+  top: 1538px;
+  left: 644px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.job1,
+.software-developer {
+  position: absolute;
+  top: 1502px;
+  left: 20px;
+  font-weight: 500;
+}
+.software-developer {
+  margin: 0;
+  top: 1537px;
+  font-size: var(--font-size-3xl);
+  line-height: 134.55%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 600px;
+}
+.group-child6 {
+  position: absolute;
+  top: 1683px;
+  left: 20px;
+  border-radius: var(--br-5xl);
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.joseph-gray {
+  position: absolute;
+  top: 1695px;
+  left: 78px;
+  font-weight: 600;
+}
+.outline-location-on-24px-icon1 {
+  position: absolute;
+  top: 0;
+  left: 290px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.innovaccer-analytics-private,
+.noida-india1 {
+  position: absolute;
+  top: 0;
+  left: 314px;
+  font-weight: 500;
+}
+.innovaccer-analytics-private {
+  left: 24px;
+}
+.outline-location-on-24px-group {
+  position: absolute;
+  top: 1579px;
+  left: 20px;
+  width: 399px;
+  height: 20px;
+  font-size: var(--font-size-mini);
+}
+.group-child7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  border: 0.7px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 650px;
+  height: 36px;
+}
+.apply-on-timesjobs {
+  position: absolute;
+  top: 9px;
+  left: 266px;
+  line-height: 140.4%;
+  font-weight: 600;
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: 1615px;
+  left: 22px;
+  width: 650px;
+  height: 36px;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: #02b875;
+}
+.group-child8 {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 694px;
+  height: 474px;
+}
+.group-icon {
+  position: absolute;
+  top: 276px;
+  left: 644px;
+  width: 28px;
+  height: 28px;
+}
+.article1,
+.what-if-famous {
+  position: absolute;
+  top: 240px;
+  left: 20px;
+  font-weight: 500;
+}
+.what-if-famous {
+  margin: 0;
+  top: 275px;
+  font-size: var(--font-size-3xl);
+  line-height: 134.17%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 600px;
+}
+.group-child9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  width: 692px;
+  height: 220px;
+  object-fit: cover;
+}
+.ive-worked-in1 {
+  margin: 0;
+  position: absolute;
+  top: 347px;
+  left: 20px;
+  font-size: var(--font-size-lgi);
+  line-height: 134.17%;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-dimgray-100);
+  display: inline-block;
+  width: 652px;
+}
+.group3 {
+  position: absolute;
+  top: 419px;
+  left: 495px;
+  width: 95px;
+  height: 18px;
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-200);
+}
+.group-child10 {
+  position: absolute;
+  top: 404px;
+  left: 20px;
+  border-radius: var(--br-5xl);
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.sarthak-kamra {
+  position: absolute;
+  top: 416px;
+  left: 78px;
+  font-weight: 600;
+}
+.group-child11,
+.group-child12,
+.group-child13,
+.group-child14 {
+  position: absolute;
+  height: 2.06%;
+  width: 6.07%;
+  top: 23.42%;
+  right: 2.89%;
+  bottom: 74.53%;
+  left: 91.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-child12,
+.group-child13,
+.group-child14 {
+  top: 51.28%;
+  bottom: 46.66%;
+}
+.group-child13,
+.group-child14 {
+  top: 80.18%;
+  bottom: 17.76%;
+}
+.group-child14 {
+  top: 96.46%;
+  bottom: 1.48%;
+}
+.group-child15,
+.group-child16 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+}
+.group-child15 {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16), 0 0 2px rgba(0, 0, 0, 0.08);
+  height: 102px;
+}
+.group-child16 {
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 32px;
+  cursor: pointer;
+}
+
+.edit {
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  font-weight: normal;
+  color: black; /* Set default text color */
+  transition: color 0.3s; /* Add smooth transition effect */
+  cursor: pointer;
+}
+
+/* Add hover effect to change text color to red */
+.rectangle-parent6:hover .edit,
+.rectangle-parent7:hover .edit,
+.rectangle-parent8:hover .edit {
+  color: red;
+  
+}
+
+.rectangle-parent6 {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 160px;
+  height: 32px;
+  text-align: right;
+}
+.rectangle-parent5,
+.rectangle-parent7,
+.rectangle-parent8 {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 160px;
+  height: 32px;
+}
+.rectangle-parent5,
+.rectangle-parent8 {
+  top: 66px;
+}
+.rectangle-parent5 {
+  top: 1286px;
+  left: 512px;
+  height: 102px;
+  font-size: var(--font-size-sm);
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 628px;
+  left: 200px;
+  width: 692px;
+  height: 1751px;
+}
+.not-logged-in-desktop {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2477px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}
